@@ -7,8 +7,12 @@ RUN apk update \
     && apk add --no-cache \
         bash \
         ca-certificates \
+        curl \
+        git \
+        gzip \
         openssh-client \
         rsync \
+        tar \
     && update-ca-certificates \
     && rm -rf /var/cache/*/* \
     && echo "" > /root/.ash_history \
