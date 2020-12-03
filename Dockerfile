@@ -10,6 +10,7 @@ RUN apk update \
         curl \
         git \
         gzip \
+        jq \
         openssh-client \
         rsync \
         tar \
